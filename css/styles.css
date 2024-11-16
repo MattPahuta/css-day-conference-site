@@ -9,14 +9,16 @@ Date: November 2024
 :root {
   
   /* Fonts */
-
+  --ff-primary: "Inter", sans-serif;
+  --ff-mono: "Fira Mono", serif;
   /* Font Sizes */
 
   /* Colors */
-  
+  --orange: hsl(14, 100%, 66%);
+  --white: hsl(0, 0%, 100%);
   /* Border radius */
   --br-soft: 1rem;
-  --br-round: 50%;
+  --br-round: 50%; 
   
 
 }
