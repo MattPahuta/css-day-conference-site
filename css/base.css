@@ -20,6 +20,12 @@ Date: November 2024
   /* Colors */
   --clr-primary: hsl(14, 100%, 66%);
   --clr-text-on-primary: hsl(0, 0%, 100%);
+  --clr-button-border: var(--clr-text-on-primary);
+  --clr-button-primary-bg: var(--clr-text-on-primary);
+  --clr-button-primary-text: var(--clr-primary);
+  --clr-button-secondary-bg: var(--clr-primary);
+  --clr-button-secondary-text: var(--clr-text-on-primary);
+
   /* Border radius */
   --br-soft: 1rem;
   --br-round: 50%; 
@@ -102,4 +108,37 @@ a {
 .nav__list-item {
   margin-inline-end: 36px;
   font-size: 20px;
+}
+
+/* update with Steph Eckles button styles */
+.button {
+  font-size: 32px;
+  padding: 0 64px;
+  height: 100px;
+  border: 4px solid var(--clr-button-border);
+  cursor: pointer;
+  transition: all 200ms linear;
+}
+
+.button:hover,
+.button:focus {
+  outline: 2px solid var(--clr-text-on-primary);
+}
+
+.button:not(button:last-of-type) {
+  margin-inline-end: 20px;
+}
+
+.button__icon {
+  vertical-align: middle;
+}
+
+.button--primary {
+  background: var(--clr-button-primary-bg);
+  color: var(--clr-button-primary-text);
+}
+
+.button--secondary {
+  background: var(--clr-button-secondary-bg);
+  color: var(--clr-button-secondary-text);
 }

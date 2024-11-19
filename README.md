@@ -21,7 +21,7 @@ This is my solution for the [Frontend Masters CSS Foundations](https://frontendm
 
 I undertook this quick two page site project to brush up on some CSS fundamentals and best practices, as I like to do from time to time. Though most of my work involves using libraries and frameworks to build and style sites, I find that it's beneficial to periodically to strip those layers of abstraction away and return to the nuts and bolts of web development. 
 
-Though I mostly followed the instruction in the course to complete the design, I did mix in some extras...
+I find this process of returning to the fundamentals and watching up-to-date tutorials and workshops presenting fundamentals useful in reminding myself to stop over-engineering my CSS and using more markup than is absolutely necessary. It's an issue I see in a lot of my early work and practice projects--too many html elements (primarily divs) and too much reliance on flex and grid styles when some simple margins will do.
 
 ### Project requirements
 

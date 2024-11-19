@@ -4,3 +4,21 @@ body {
   background: var(--clr-primary);
   color: var(--clr-text-on-primary);
 }
+
+.main {
+  padding: 150px;
+}
+
+.main__heading {
+  font-size: 128px;
+  font-weight: 700;
+}
+
+.main__sub-heading {
+  font-size: 40px;
+}
+
+.button-container {
+  margin-top: 100px;
+  display: flex;
+}
