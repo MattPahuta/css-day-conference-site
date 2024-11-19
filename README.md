@@ -21,7 +21,7 @@ This is my solution for the [Frontend Masters CSS Foundations](https://frontendm
 
 I undertook this quick two page site project to brush up on some CSS fundamentals and best practices, as I like to do from time to time. Though most of my work involves using libraries and frameworks to build and style sites, I find that it's beneficial to periodically to strip those layers of abstraction away and return to the nuts and bolts of web development. 
 
-Though I mostly followed the instruction in the course to complete the design, I did mix in some additional CSS basics that I never do without, such as using a proper CSS reset, linking to seperate style sheets, custom properties, to name a few things.
+Though I mostly followed the instruction in the course to complete the design, I did mix in some extras...
 
 ### Project requirements
 

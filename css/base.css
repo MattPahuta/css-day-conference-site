@@ -18,8 +18,8 @@ Date: November 2024
   --fw-700: 700;
 
   /* Colors */
-  --orange: hsl(14, 100%, 66%);
-  --white: hsl(0, 0%, 100%);
+  --clr-primary: hsl(14, 100%, 66%);
+  --clr-text-on-primary: hsl(0, 0%, 100%);
   /* Border radius */
   --br-soft: 1rem;
   --br-round: 50%; 
@@ -47,10 +47,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img, picture, video, canvas, svg {
+/* img, picture, video, canvas, svg {
   display: block;
   max-width: 100%;
-}
+} */
 
 input, button, textarea, select {
   font: inherit;
@@ -69,16 +69,37 @@ body {
   font-family: var(--ff-primary);
 }
 
-.home {
-  background: var(--orange);
-  color: var(--white);
-}
-
-.speakers {
-
-}
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo nav shopping-cart";
+  align-items: center;
+  padding: 0 60px;
+}
+
+.header__link {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.nav {
+  display: inline-block;
+  justify-self: end;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__list-item {
+  margin-inline-end: 36px;
+  font-size: 20px;
 }
